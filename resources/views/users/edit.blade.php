@@ -4,6 +4,7 @@
   <div class="container mt-4">
     <form action="{{ route('users.update', $user->id) }}" class="form-action" method="POST">
       @csrf
+      @method('PUT')
       <div class="mb-3">
         <label for="name" class="form-label">Name</label>
         <input type="text" class="form-control" id="name" name="name" value="{{ $user->name }}">
