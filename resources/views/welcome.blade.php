@@ -20,6 +20,8 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link" href="{{ route('users.index') }}">Users</a>
+          <a class="nav-link" href="{{ route('absensis.index') }}">Absensi</a>
+          <a class="nav-link" href="{{ route('traning.index') }}">Traning</a>
         </div>
       </div>
     </div>
